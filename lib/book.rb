@@ -6,7 +6,6 @@ GENRES = []
 
   def initialize(title)
     @title = title
-    GENRES = []
   end
 
   def turn_page

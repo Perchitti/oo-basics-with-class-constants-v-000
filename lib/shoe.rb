@@ -7,6 +7,7 @@ BRANDS = []
 
   def initialize(brand)
     @brand = brand
+    BRANDS << brand unless BRANDS.include?(brand)
   end
 
   def cobble
@@ -14,9 +15,5 @@ BRANDS = []
     puts "Your shoe is as good as new!"
   end
 
-  def brand=(brand)
-    @brand = brand
-    BRANDS << brand unless BRANDS.include?(brand)
-  end
 
 end

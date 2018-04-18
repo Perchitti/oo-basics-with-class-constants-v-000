@@ -17,5 +17,7 @@ BRANDS = []
   def brands=(brands)
     @brands = brands
 BRANDS << brands if BRANDS !include brands
+end
+end
 
 end

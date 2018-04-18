@@ -18,6 +18,5 @@ BRANDS = []
     @brands = brands
     BRANDS << brands unless BRANDS.include?(brands)
   end
-end
 
 end

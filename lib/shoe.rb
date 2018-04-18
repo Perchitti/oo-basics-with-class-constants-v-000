@@ -14,9 +14,9 @@ BRANDS = []
     puts "Your shoe is as good as new!"
   end
 
-  def brands=(brands)
-    @brands = brands
-    BRANDS << brands unless BRANDS.include?(brand)
+  def brand=(brand)
+    @brand = brand
+    BRANDS << brand unless BRANDS.include?(brand)
   end
 
 end

@@ -15,5 +15,5 @@ GENRES = []
   def genre=(genre)
     @genres = genre
 GENRES << genre
-
+end
 end
